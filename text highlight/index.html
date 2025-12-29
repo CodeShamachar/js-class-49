@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Search & Highlight</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Search & Highlight Text</h2>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search here..." />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="options">
+        <label>
+          <input type="checkbox" id="caseCheck" />
+          Case Sensitive
+        </label>
+      </div>
+
+      <p id="count"></p>
+
+      <div id="text">
+        JavaScript is a powerful language. Learning JavaScript helps build
+        interactive websites. Searching text and highlighting text using
+        JavaScript is a popular beginner project.
+      </div>
+
+      <p id="notFound">❌ No Match Found</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
